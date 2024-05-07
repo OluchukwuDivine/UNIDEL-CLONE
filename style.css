@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background: #283646;
+    margin-top: 1px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-icons {
+    display: flex;
+    margin-left: 10%;
+  }
+  .header-icons img {
+    margin-left: 10px;
+    width: 24px;
+    height: 22px;
+  }
+  header button {
+    width: fit-content;
+    height: 30px;
+    margin-left: 5px;
+    padding: 6px 13px 6px 13px;
+    background: #1c2733;
+    color: rgb(168, 168, 168);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  header .btn-holder {
+    margin-right: 50px;
+    display: flex;
+  }
+  .navlist {
+    background: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+  }
+  .main-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-holder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .text-holder h1 {
+    font-weight: 900;
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+  .text-holder p {
+    margin-bottom: 50px;
+    line-height: 25px;
+  }
+  .blue-btn {
+    text-decoration: none;
+    color: white;
+    background: #4582ff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 20px;
+  }
+  .navlist li {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .navlist li a{
+    text-decoration: none;
+    color: black;
+  }
+  .navlist ul {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navlist img {
+    margin-left: 11%;
+    margin-bottom: 10px;
+  }
+  #main-img {
+    width: 100%;
+    height: 530px;
+    background-image: url(/images/gate.jpg);
+  }
+  .overlap{
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -70px;
+    height: 400px;
+    box-shadow: 0px 50px 50px -20px #e4e4e4; /* Bottom box shadow */
+  }
+  .inner-overlap{
+    display: flex;
+    padding: 25px 20px 20px 20px;
+  
+  }
+  .overlap-tabs{
+    border-right: 1px solid rgb(226, 224, 224);
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .overlap-tabs .icn-img{
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  .overlap-tabs h3{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .overlap-tabs hr{
+    display: block;
+    width: 70px;
+    color: black;
+    margin-bottom: 15px;
+  }
+  .overlap-tabs p{
+    color: rgb(104, 104, 104);
+    line-height: 22px;
+    font-size: 14px;
+    word-spacing: 5px;
+  }
+  #overlap-last-tab{
+    border: none;
+  }
+  #overlap-last-tab h3{
+    margin-top: -8px;
+  }
+  .hamburger{
+    width: 35px;
+    display: none;
+  }
+  .welcome-div{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+  }
+
+  .featured-links{
+    height: 500px;
+    width: 27%;
+  }
+  .left-tab-welcome{
+    width: 73%;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .left-tab-welcome p{
+    color: rgb(146, 146, 146);
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .left-tab-welcome img{
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .blue-line{
+    margin: 20px 0px 20px 0px;
+    width: 80px;
+    height: 2px;
+    background: #4582ff;
+  }
+  .featured-links h4{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .featured-links .blue-line-sm{
+    width: 60px;
+    height: 1px;
+    background: #4582ff;
+    margin: 10px 0;
+  }
+  .link-holder{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  .links{
+    border-bottom: 1px dotted rgb(199, 197, 197);
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px 15px 0px;
+    font-weight: bold;
+  }
+  .youtube-section{
+    width: 100%;
+    background-image: url(/images/youtube_back.jpg);
+    background-size: 100%;
+    height: 400px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+  }
+  .youtube-section img{
+    width: 550px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  .youtube-right-tab{
+    height: 100%;
+    width: 50%;
+    margin-left: 6%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+  }
+  .youtube-right-tab p{
+    line-height: 25px;
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+  .youtube-right-tab .blue-btn{
+    width: 120px;
+    margin-top: 30px;
+  }
+  .white-line{
+    width: 70px;
+    height: 2px;
+    background: white;
+    margin: 20px 0px 20px 0px;
+  }
+  .news-events{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+.news-events .blue-line{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+.news-events .blue-btn{
+  width: fit-content;
+  margin: 20px auto;
+}
+.image-holder{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 10px;
+}
+.images img{
+  border-radius: 8px;
+}
+.images a{
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: large;
+  line-height: 25px;
+  text-align: start;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  @media (max-width: 767px) {
+    /* CSS rules for screens with a maximum width of 767px (mobile devices) */
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body{
+      max-width: 100vw;
+    }
+    header {
+      margin: 0;
+      width: 100%;
+      height: 55px;
+    }
+    .header-icons{
+      margin: 0;
+    }
+    header .btn-holder{
+      margin-right: 3%;
+    }
+    .navlist img{
+      margin-left: 3%;
+    }
+    .navlist ul{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 70vw;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      flex-direction: column;
+      display: none;
+    }
+    .hamburger{
+      width: 35px;
+      display: block;
+      position: absolute;
+      right: 30px;
+    }
+    main{
+      width: 100vw;
+    }
+    .text-holder h1{
+      font-size: 23px;
+    }
+    #main-img{
+      height: 400px;
+      padding-left: 10px;
+    }
+    .text-holder p{
+      margin-bottom: 20px;
+    }
+    .text-holder br{
+      display: none;
+    }
+    .text-holder a {
+      font-size: 9px;
+      padding: 10px 17px;
+      font-weight: 200;
+    }
+    .overlap{
+      height: min-content;
+    }
+    .inner-overlap{
+      flex-direction: column;
+    }
+    .overlap-tabs{
+      border: none;
+    }
+    .map-img{
+      width: 100%;
+    }
+    #menu-tab{
+      box-shadow: 0px 50px 50px -20px #e4e4e4;
+    }
+    #close-menu-btn{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  .welcome-div{
+    flex-direction: column;
+  }
+  .left-tab-welcome{
+    width: 100%;
+  }
+  .left-tab-welcome img{
+    height: 120px;
+    width: 100%;
+  }
+  .featured-links{
+    width: 100%;
+  }
+  .youtube-section{
+    flex-direction: column;
+  }
+  .youtube-section{
+    height: min-content;
+    margin-top: 70px;
+    padding: 50px 10px;
+    background-size: cover;
+  }
+  .youtube-section img{
+    width: 95%;
+    height: 150px;
+  }
+  .youtube-right-tab{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0;
+  }
+  .youtube-right-tab h1{
+    font-size: 30px;
+  }
+  .image-holder{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .news-events{
+    margin: 0;
+  }
+  .images{
+    margin: auto;
+  }
+  .image-holder #news2, .image-holder #news3{
+    display: none;
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
