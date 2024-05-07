@@ -211,7 +211,7 @@
   }
   .youtube-section{
     width: 100%;
-    background-image: url(/images/youtube_back.jpg);
+    background-image: url(images/youtube_back.jpg);
     background-size: 100%;
     height: 400px;
     padding: 20px 50px;
