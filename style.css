@@ -217,6 +217,7 @@
     padding: 20px 50px;
     display: flex;
     align-items: center;
+    margin-top: 55px;
   }
   .youtube-section img{
     width: 550px;
@@ -270,12 +271,12 @@
 .image-holder{
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .images{
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: clamp(280px, 300px, 350px);
   margin: 10px;
 }
 .images img{
