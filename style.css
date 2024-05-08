@@ -428,7 +428,8 @@
   .image-holder{
     flex-direction: column;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    padding: 0;
   }
   .news-events{
     margin: 0;
