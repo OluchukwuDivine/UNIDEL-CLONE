@@ -251,7 +251,7 @@
   .news-events{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: 500px;
     margin: auto;
     padding-top: 30px;
